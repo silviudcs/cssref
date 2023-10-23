@@ -1,0 +1,27 @@
+charset "utf-8";
+/* CSS Document */
+.header {
+    background-color: #2d3e4f;
+    color:#fff !important;
+    }
+.header a {color: #fff;}
+.header__menu a:active, .header__menu a:hover {
+    color: #89bef3;
+}
+.header__menu-toggle-line, .header__menu-toggle-line:after, .header__menu-toggle-line:before {background: #fff;}
+body {background: url(https://c.cdnmp.net/415469311/content/qzerty-bg-v2.jpg) repeat;}
+.footer {background-color: #f1f1f1; padding-bottom: 0px;} 
+.footer__widgets {background-color: transparent; border-bottom: 1px solid #666;}
+.footer__bottom {background-color: #e8e8e8;}
+.product--grid {background-color: #fff; border-radius: 5px; border: 1px solid #ccc; padding: 5px 0px;}
+.btn-primary {background-color: #c12414; border-radius: 5px;}
+.btn-primary:active, .btn-primary:active:focus, .btn-primary:focus, .btn-primary:hover {
+  background-color: #fff;
+  border-color: #f32c18;
+  color: #f32c18;
+}
+.product-action--add-to-favorites a {border-radius: 5px;}
+.grid-image__badge, .compact-image__badge {background-color: #c12414; border-radius: 5px 0 0 5px;}
+.product-summary__badge {background-color: #c12414; border-radius: 0 5px 5px 0;}
+.product-content {padding: 0 3px; background-color: #fff; border-radius: 3px;border: 1px solid #ccc;}
+.page__static-content {padding: 0 3px; background-color: #fff; border-radius: 3px;border: 1px solid #ccc;}
